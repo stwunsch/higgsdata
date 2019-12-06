@@ -704,7 +704,7 @@ if __name__ == '__main__':
     if not quiet:
         print("Loading the dataset")
 
-    data = load_higgs(in_file)
+    data = load_higgs()
 
     if float_label:
         if not quiet:

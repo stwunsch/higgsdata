@@ -25,6 +25,6 @@ def set_data_dir(new_data_dir):
 
 def maybe_download(filename, url):
     if not os.path.exists(filename):
-        print("downloading " + filename + "...", end='')
+        print("downloading " + filename + "...")
         urlretrieve(url, filename)
         print("Done.")
